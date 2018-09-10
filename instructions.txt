@@ -1,0 +1,5 @@
+1) Create empty repo on remote
+2) git clone to local ( for example : git clone <url>)
+3) git add -A   [This is to add all]
+4) git commit -m <message>
+5) git push <remote> <local>
