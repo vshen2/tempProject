@@ -3,3 +3,15 @@
 3) git add -A   [This is to add all]
 4) git commit -m <message>
 5) git push <remote> <local>
+
+#Way to commit already devloped code into remote 
+
+1. git config  --global user.name "so&so"
+2. git config --global user.email soandso@so.com
+3. git init
+4. git add -A
+5. git commit -m "soandso message"
+6. git remote set-url soandso.git
+7. git remote add orgin url
+8. git pull remote local
+9. git push remote local
